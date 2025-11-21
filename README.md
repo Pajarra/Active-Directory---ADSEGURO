@@ -40,6 +40,7 @@ Configuração Opcional
 
 Edite as variáveis no início do script se necessário:
 
+<pre>
 # ============================
 # CONFIGURAÇÕES INICIAIS
 # ============================
@@ -68,6 +69,7 @@ $UserList = @(
     @{ User="carlos.santos"; Dept="FIN"; FullName="Carlos Santos" },
     @{ User="roberto.alves"; Dept="TI";  FullName="Roberto Alves" }
 )
+</pre>
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------
