@@ -1,9 +1,3 @@
-<#
-    Setup-ADSEGURO_Completo.ps1
-    Script COMPLETO com TODAS as GPOs específicas por departamento
-    Baseado no documento "Active Directory - Estrutura.docx"
-#>
-
 # ============================
 # CONFIGURAÇÕES INICIAIS
 # ============================
@@ -492,4 +486,5 @@ try {
 catch {
     Write-Error "Erro durante execução: $($_.Exception.Message)"
     exit 1
+
 }
